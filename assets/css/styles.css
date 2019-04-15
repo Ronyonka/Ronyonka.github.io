@@ -1,0 +1,45 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #353831;
+    color:#edf2f4;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.desc{
+    text-align: center;
+
+}
+
+.w3-top{
+    background-color: #353831;
+    color:#edf2f4;
+}
+
+a:hover{
+    text-decoration: None;
+}
+
+.space{
+    padding-top: 80px;
+}
+
+.w3-bar{
+    background: transparent;
+}
+
+.w3-image{
+    opacity: 0.2;
+}
+
+.landing{
+    height:100vh;
+    width:auto;
+}
+
+.imass{
+    opacity: 0.5;
+}
