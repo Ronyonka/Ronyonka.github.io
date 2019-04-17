@@ -15,7 +15,7 @@ html {
   z-index:1000;
 }
 
-a { 
+a {
   color: #4458dc;
   text-decoration: none; }
 
@@ -502,7 +502,13 @@ footer {
 @media only screen and (max-width: 469px) {
   .highlighter-container {
     top: 230px; }
-
+  .jamba{
+    position: absolute; 
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px; width: 1px;
+    margin: -1px; padding: 0; border: 0;
+  }
   p {
     text-align: justify; } }
 
