@@ -15,6 +15,11 @@ html {
   z-index:1000;
 }
 
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
 a {
   color: #4458dc;
   text-decoration: none; }
@@ -478,6 +483,8 @@ footer {
   .big-arrow {
     display: none; }
 
+
+
   .small-arrow {
     display: block; }
 
@@ -503,8 +510,20 @@ footer {
   .highlighter-container {
     top: 230px; }
 
-  #projects{
-    padding-top:50px;
+   #projects{
+    margin-top:440px;
+  }
+
+  .profile{
+    margin-top:180px;
+  }
+
+  #skills{
+    margin-top:430px;
+  } 
+
+  .wrap-grid{
+    margin-left: 50px;
   }
 
   .jamba{
@@ -517,4 +536,4 @@ footer {
   p {
     text-align: justify; } }
 
-/*# sourceMappingURL=main.css.map */
+
