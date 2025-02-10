@@ -2,7 +2,7 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Ron Onyonka <brittany.chiang@gmail.com>",
+  "author": "Ron Onyonka <rononyonka@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/bchiang7/v4"
@@ -20,7 +20,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "vercel-build": "gatsby build"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
