@@ -75,7 +75,7 @@ export const Header = () => {
                 <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
               )}
               <Line vert maxHeight="24" />
-              {routes["/about"] && (
+              {/* {routes["/about"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -91,7 +91,7 @@ export const Header = () => {
                     selected={pathname === "/about"}
                   />
                 </>
-              )}
+              )} */}
               {routes["/work"] && (
                 <>
                   <ToggleButton

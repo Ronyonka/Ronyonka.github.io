@@ -9,7 +9,7 @@ const person = {
   role: "Software Engineer",
   avatar: "/images/avatar.jpg",
   location: "Africa/Nairobi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Swahili", "Spanish"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["AWS","Python", "Django","Flask","FastAPI", "JavaScript", "React","Vue","Typescript","Angular", "Go", "Ruby","Ruby on Rails"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -63,7 +63,7 @@ const home = {
 
 const about = {
   label: "About",
-  title: "About me",
+  title: "Ron Onyonka",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/ronyonka/30min-1",
   },
   intro: {
     display: true,
@@ -94,31 +94,62 @@ const about = {
       {
         company: "Ovanova",
         timeframe: "2024 - Present",
-        role: "Senior Design Engineer",
+        role: "Backend Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Transformed raw telemetry data into structured formats, enabling seamless integration with downstream analytics platforms.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Automated data ingestion workflows using Python-based ETL scripts and APIs, ensuring efficiency and data integrity.
+          </>,
+          <>
+            Designed and implemented robust pipelines for processing and storing operational data from IoT devices (e.g., inverters, solar panels) using Django, Kafka, Faust, Telegraf, and InfluxDB.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Meltwater",
+        timeframe: "2023 - 2024",
+        role: "Software Engineer",
+        achievements: [
+          <>
+            Developed and implemented efficient, scalable Python-based data polling services at scale, deployed on AWS Lambda and Kubernetes, designed to collect critical social media metadata from major platforms in real time, adhering to established design patterns and best practices.
+          </>,
+          <>
+            Built and designed robust Python/FastAPI APIs, enabling seamless integration with front-end dashboards and improved data transfer, while following coding standards and design patterns to ensure maintainability, readability, and system performance.
+          </>,
+          <>
+          Managed and optimized Amazon OpenSearch (ElasticSearch) clusters, focusing on maintaining high
+availability, ensuring data backup, implementing disaster recovery strategies, and executing versatile
+querying techniques for efficient data extraction, all in line with industry best practices.
+          </>,
+          <>
+          Collaborated with UX designers to implement pixel-perfect, accessible user interfaces
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "The Baobab Network",
+        timeframe: "2020 - 2023",
+        role: "Full Stack Developer",
+        achievements: [
+          <>
+            Developed a design system that unified the brand across multiple platforms, improving
+            design consistency by 40%.
+          </>,
+          <>
+            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            in overall company revenue.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Upande Ltd",
+        timeframe: "2019 - 2020",
+        role: "Software Engineer",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -135,15 +166,15 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "Moringa School",
         description: <>Studied software engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Egerton University",
+        description: <>Studied Biochemistry.</>,
       },
     ],
   },
@@ -152,7 +183,7 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Django",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
