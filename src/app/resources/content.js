@@ -136,12 +136,11 @@ querying techniques for efficient data extraction, all in line with industry bes
         role: "Full Stack Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed and maintained a full-stack web application using React.js and Django
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Created a data analytics platform for tracking start-up investments in Africa, decreasing
+collation time by 60% and improving data accuracy by 80%
           </>,
         ],
         images: [],
@@ -152,12 +151,11 @@ querying techniques for efficient data extraction, all in line with industry bes
         role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Optimized website performance, improving load times by 25% through code refinement and
+asset optimization
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed interactive map features using Mapbox for asset tracking visualization.
           </>,
         ],
         images: [],
