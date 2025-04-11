@@ -36,6 +36,18 @@ export async function generateMetadata() {
 export default function Work() {
   let allProjects = getPosts(["src", "app", "work", "projects"]);
 
+  // Sort projects by `publishedAt` (latest first)
+  allProjects = allProjects.sort((a, b) => {
+    const parseDate = (dateString) => {
+      const [day, month, year] = dateString.split("-").map(Number); // Split and convert to numbers
+      return new Date(year, month - 1, day); // Create a valid Date object
+    };
+
+    const dateA = parseDate(a.metadata.publishedAt);
+    const dateB = parseDate(b.metadata.publishedAt);
+    return dateB - dateA; // Sort descending by date
+  });
+
   return (
     <Column maxWidth="m">
       <script
@@ -58,12 +70,12 @@ export default function Work() {
               headline: project.metadata.title,
               description: project.metadata.summary,
               url: `https://${baseURL}/projects/${project.slug}`,
-              image: `${baseURL}/${project.metadata.image}`,
+              image: `${baseURL}/${project.metadata.images[0]}`,
             })),
           }),
         }}
       />
-      <Projects />
+      <Projects projects={allProjects} />
     </Column>
   );
 }
